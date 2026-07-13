@@ -1,55 +1,53 @@
 # conditional statement
-#if-elif-else
+if-elif-else
 
 
-# age=21
-# if(age>=18):
-#     print("can vote")
-# else:
-#     print("cannot vote")
+ age=21
+ if(age>=18):
+     print("can vote")
+ else:
+     print("cannot vote")
 
-# light="green"
-# if(light=="red"):
-#     print("stop")
-# elif(light=="green"):
-#     print("go")
-# elif(light=="yellow"):
-#      print("look")
-# else:
-#      print("light is fuck")
-
-
-
-# num=5
-# if(num>7):
-#     print("greater than 7")
-# elif(num>8):
-#     print("greater than 8")
-# else:
-#      print("greater number")
+ light="green"
+ if(light=="red"):
+     print("stop")
+ elif(light=="green"):
+     print("go")
+ elif(light=="yellow"):
+      print("look")
+ else:
+      print("light is fuck")
 
 
-# marks=int(input("enter student marks:"))
-# if(marks>=90):
-#     grade="A"
-# elif(marks>=80 and marks<90):
-#     grade="B"  
-# elif(marks>=70 and marks<80):
-#     grade="C"
-# else:
-#     grade="D"
-# print("grade of the student ->",grade)    
+
+ num=5
+ if(num>7):
+     print("greater than 7")
+ elif(num>8):
+     print("greater than 8")
+ else:
+      print("greater number")
+ marks=int(input("enter student marks:"))
+ if(marks>=90):
+     grade="A"
+ elif(marks>=80 and marks<90):
+     grade="B"  
+ elif(marks>=70 and marks<80):
+     grade="C"
+ else:
+     grade="D"
+ print("grade of the student ->",grade)    
 
 #nesting
-# if(cond):
-#     if(cond2):
-#         print()
+ if(cond):
+     if(cond2):
+         print()
 
-# age=34
-# if(age>=18):
-#   if(age>=80):
-#       print("cannot drive")
-#   else:    
+ age=34
+ if(age>=18):
+   if(age>=80):
+       print("cannot drive")
+   else:    
 #    print("can drive")
 # else:
 #    print("cannot drive")
